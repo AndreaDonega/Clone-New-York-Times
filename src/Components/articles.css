@@ -1,0 +1,9 @@
+body{font-family: 'Lato', sans-serif;}
+h1,h2,h3,h4,h6,h5{font-family: 'EB Garamond', serif;}
+
+.article-container{display:flex; border-bottom: solid 1px gray; justify-content: space-between; padding: 15px 10px;}
+.border-bottom, .border-bottom-text{border-bottom: solid 1px grey; padding-bottom: 10px;}
+
+@media (max-width: 768px) {
+    .border-bottom-text{border-bottom: none;}
+}
