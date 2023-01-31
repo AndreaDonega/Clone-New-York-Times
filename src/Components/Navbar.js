@@ -40,7 +40,7 @@ return(
           <Link to="/" style={linkStyle}><h1 className="title"><em>NY TIMES CLONE</em></h1></Link>
         <ul className="header__menu">
 
-          <li onClick={closeMenu}><Link to="/" style={linkStyle}>Home</Link></li>
+          <li onClick={closeMenu}><Link to="/Clone-New-York-Times/" style={linkStyle}>Home</Link></li>
           <li onClick={closeMenu}><Link to="/arts" style={linkStyle}>Arts</Link></li>
           <li onClick={closeMenu}><Link to="/books" style={linkStyle}>Books</Link></li>
           <li onClick={closeMenu}><Link to="/business" style={linkStyle}>Business</Link></li>
